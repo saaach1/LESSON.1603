@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "myfonts";
+    src: url(Nelistha-L3LBg.ttf);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1,
+p {
+    margin-bottom: 20px;
+}
+
+.google-fonts {
+    font-family: 'Red Hat Mono', monospace;
+}
+
+.font-face {
+    font-family: "myfonts";
+    font-size: 40px;
+}

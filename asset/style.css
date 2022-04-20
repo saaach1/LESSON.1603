@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Montserrat';
+    background-color: rgb(120, 168, 114)
+}
+
+h1 {
+    text-align: center;
+    padding: 40px 0;
+}

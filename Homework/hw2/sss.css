@@ -1,0 +1,42 @@
+body {
+    background-image: url(image/backgroundbig.png);
+    width: auto;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(128, 128, 128, 0.486);
+}
+
+h2 {
+    text-align: center;
+    color: orange;
+}
+
+.first {
+    border: solid grey;
+    padding: 30px;
+    border-radius: 10px 0px;
+    margin: 20px;
+}
+
+a {
+    margin-left: 750px;
+    color: red;
+}
+
+nav a {
+    margin-right: 500px;
+}
+
+.second {
+    border: dashed grey;
+    padding: 30px;
+    border-radius: 10px 0px;
+    margin: 20px;
+}

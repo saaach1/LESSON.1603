@@ -1,0 +1,33 @@
+.selected {
+    font-size: 30px;
+    color: red;
+}
+
+div.first {
+    /* div с классом first. Приоритетнее чем .first */
+    font-size: 25px;
+    color: rgb(42, 98, 20);
+}
+
+
+.first {
+    font-size: 10px;
+    color: blue;
+}
+
+.selected span {
+    /* все span внутри .selected */
+    font-size: 25px;
+    color: brown;
+}
+
+.last-block p,
+span.violet {
+    /* через запятую можно задавать свойства нескольким селекторам */
+    color: violet;
+}
+
+
+div.first.selected * {
+    padding-left: 200px;
+}

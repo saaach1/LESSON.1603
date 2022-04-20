@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: green;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: wheat;
+}
+
+a:hover {
+    background-color: rgba(89, 4, 248, 0.466);
+}

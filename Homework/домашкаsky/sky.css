@@ -1,0 +1,134 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #4a99d3;
+}
+
+.image1 {
+    background-image: url(images/sky.png);
+    position: absolute;
+    width: 350px;
+    height: 140px;
+    top: 300px;
+    left: 20px;
+    opacity: 30%;
+}
+
+.image2 {
+    background-image: url(images/sky.png);
+    position: absolute;
+    width: 250px;
+    height: 140px;
+    top: 450px;
+    left: 200px;
+    opacity: 30%;
+}
+
+.image3 {
+    background-image: url(images/sky.png);
+    position: absolute;
+    width: 250px;
+    height: 140px;
+    top: 450px;
+    right: 50px;
+    opacity: 30%;
+}
+
+.image4 {
+    width: 250px;
+    height: 140px;
+    background-image: url(images/sky.png);
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    opacity: 100%;
+}
+
+.block2 {
+    width: 800px;
+    height: 1300px;
+    background-color: #213f64a8;
+    margin: 110px auto 0 auto;
+}
+
+.text {
+    padding: 70px;
+    color: white;
+}
+
+.element {
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+.element2 {
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+p {
+    opacity: 1;
+    padding-bottom: 20px;
+}
+
+.element3 {
+    padding-bottom: 200px;
+}
+
+.images {
+    display: inline-block;
+}
+
+.images1,
+.images2,
+.images3,
+.images4,
+.images5 {
+    margin: 3px;
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    background-image: url(images/tree.png);
+}
+
+.images2 {
+    background-image: url(images/bird1.png);
+}
+
+.images3 {
+    background-image: url(images/bird2.png);
+}
+
+.images4 {
+    background-image: url(images/bird3.png);
+}
+
+.images5 {
+    background-image: url(images/bird4.png);
+}
+
+.grass1,
+.grass2,
+.grass3,
+.grass4,
+.grass5,
+.grass6,
+.grass7,
+.grass8,
+.grass9,
+.grass10 {
+    background-image: url(images/grass.png);
+    display: inline-block;
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+    float: left;
+}

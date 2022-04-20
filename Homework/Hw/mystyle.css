@@ -1,0 +1,19 @@
+h1{
+    color: black;
+    
+    text-transform: uppercase;
+    text-align: center;
+    border: solid green;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+p1{
+    font-weight: 700;
+}
+
+    
+ol{
+ color: black;
+
+}

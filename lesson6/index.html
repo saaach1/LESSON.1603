@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Псевдоклассы и псевдоэлементы</title>
+    <link rel="stylesheet" href="sty.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Псевдоклассы и псевдоэлементы</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="psevdo">
+                <h2 class="psevdo__title">Псевдоклассы</h2>
+                <div class="psevdo__item">
+                    <h3 class="psevdo_subtitle">::hover</h3>
+                    <div class="hover-block">
+                        <a href="#" class="hover-block__link">Ссылка</a>
+                    </div>
+                </div>
+
+                <div class="psevdo__item">
+                    <h3 class="psevdo_subtitle">:visited</h3>
+                    <div class="visited-block">
+                        <a href="https://apsolyamov.ru/" target="_blank" class="visited-block__link">Ссылка</a>
+                    </div>
+                </div>
+                <div class="psevdo__item">
+                    <h3 class="psevdo_subtitle">:last-child и nth-child(n)</h3>
+                    <div class="last-child-block nth-child-block">
+                        <p class="last-child-block__item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eum alias reiciendis mollitia ea ut!</p>
+                        <p class="last-child-block__item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eum alias reiciendis mollitia ea ut!</p>
+                        <p class="last-child-block__item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eum alias reiciendis mollitia ea ut!</p>
+                        <p class="last-child-block__item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eum alias reiciendis mollitia ea ut!</p>
+                        <p class="last-child-block__item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam eum alias reiciendis mollitia ea ut!</p>
+                    </div>
+                </div>
+                <div class="psevdo__item">
+                    <h3 class="psevdo_subtitle">example-1</h3>
+                    <a href="#" class="example-1__item">Cсылка</a>
+                    <a href="#" class="example-1__item">Cсылка</a>
+                    <a href="#" class="example-1__item">Cсылка</a>
+                    <a href="#" class="example-1__item">Cсылка</a>
+                    <a href="#" class="example-1__item">Cсылка</a>
+
+
+
+                </div>
+                <div class="psevdo__item">
+                    <h3 class="psevdo_subtitle">:nth-child(even)</h3>
+
+                    <div class="example__item"></div>
+                    <div class="example__item"></div>
+                    <div class="example__item"></div>
+                    <div class="example__item"></div>
+                    <div class="example__item"></div>
+                    <div class="example__item"></div>
+                    <div class="example__item"></div>
+                    <div class="example__item"></div>
+                    <div class="example__item"></div>
+                    <div class="example__item"></div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="psevdo">
+            <h2 class="psevdo__title">Псевдоэлементы</h2>
+            <div class="psevdo__item">
+                <h3 class="psevdo_subtitle">::first-line</h3>
+                <div class="first_line_block">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, aperiam. Harum odit corporis non commodi quasi nemo, porro magnam repudiandae debitis iusto voluptate ducimus qui totam placeat! Voluptas id molestiae amet, repellendus
+                        fugiat recusandae minus nisi ducimus et cumque commodi a voluptates aspernatur. Vel voluptatem doloribus distinctio tenetur expedita minus similique delectus ab quod, deserunt cum inventore optio fugit vero voluptatibus. Aut, ipsum
+                        accusantium ad tenetur vero suscipit commodi placeat nesciunt magni veniam hic aliquam asperiores eius debitis necessitatibus quam corporis quae quasi rerum adipisci beatae qui rem incidunt earum! Explicabo illo assumenda dolorem
+                        quam sapiente maxime quibusdam dolore nam?</p>
+                </div>
+            </div>
+            <div class="psevdo__item">
+                <h3 class="psevdo_subtitle">::first-letter</h3>
+                <div class="first_letter_block">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, aperiam. Harum odit corporis non commodi quasi nemo, porro magnam repudiandae debitis iusto voluptate ducimus qui totam placeat! Voluptas id molestiae amet, repellendus
+                        fugiat recusandae minus nisi ducimus et cumque commodi a voluptates aspernatur. Vel voluptatem doloribus distinctio tenetur expedita minus similique delectus ab quod, deserunt cum inventore optio fugit vero voluptatibus. Aut, ipsum
+                        accusantium ad tenetur vero suscipit commodi placeat nesciunt magni veniam hic aliquam asperiores eius debitis necessitatibus quam corporis quae quasi rerum adipisci beatae qui rem incidunt earum! Explicabo illo assumenda dolorem
+                        quam sapiente maxime quibusdam dolore nam?</p>
+                </div>
+            </div>
+            <div class="psevdo__item">
+                <h3 class="psevdo_subtitle">::before and ::after</h3>
+                <div class="before_example_1">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="before_example_2">
+                    <p>Lorem ipsum dolor sit amet</p>
+                </div>
+                <div class="before_example_3">
+                    <ul>
+                        <li>Элемент списка 1</li>
+                        <li>Элемент списка 2</li>
+                        <li>Элемент списка 3</li>
+                        <li>Элемент списка 4</li>
+                        <li>Элемент списка 5</li>
+                    </ul>
+                </div>
+                <div class="before_example_4">
+                    <a href="#">Ссылка</a>
+                </div>
+                <div class="before_example_5">
+                    <a href="#">Ссылка</a>
+                </div>
+                <div class="before_example_6">
+                    <a href="#">Ссылка</a>
+                </div>
+                <div class="before_example_7">
+                    <a href="#">Ссылка</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

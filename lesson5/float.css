@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: blueviolet;
+    overflow: auto;
+}
+
+.logo {
+    float: left;
+}
+
+.menu {
+    margin-top: 13px;
+    margin-right: 200px;
+    float: right;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu__item {
+    margin-right: 15px;
+    color: white;
+}
+
+.block__image {
+    float: left;
+}
+
+.block2__image {
+    float: right;
+}
+
+.block2,
+.block3 {
+    margin-bottom: 15px;
+}
+
+.block2 {
+    background-color: blueviolet;
+    width: 300px;
+    height: 50px;
+    overflow: auto;
+}
+
+.block3 {
+    background-color: blueviolet;
+    width: 300px;
+    height: 50px;
+    overflow: hidden;
+}

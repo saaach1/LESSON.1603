@@ -1,0 +1,81 @@
+ * {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+ }
+ 
+ .container {
+     max-width: 800px;
+     margin: 0 auto;
+ }
+ 
+ header {
+     background-color: rgb(57, 156, 151);
+     overflow: auto;
+     padding: 30px;
+ }
+ 
+ .logo {
+     float: left;
+ }
+ 
+ .menu {
+     margin-top: 13px;
+     margin-right: 150px;
+     float: right;
+ }
+ 
+ .menu li {
+     display: inline-block;
+ }
+ 
+ .menu__item {
+     margin-right: 15px;
+     text-decoration: none;
+     color: white;
+ }
+ 
+ .first {
+     background-color: rgb(101, 118, 139);
+     overflow: auto;
+     padding: 70px;
+ }
+ 
+ p {
+     padding-bottom: 30px;
+ }
+ 
+ h1 {
+     font-size: 60px;
+ }
+ 
+ .second {
+     background-color: aliceblue;
+     overflow: auto;
+     padding: 50px;
+ }
+ 
+ .image {
+     float: left;
+ }
+ 
+ .p {
+     float: right;
+     margin-right: 550px;
+     padding-bottom: 150px;
+ }
+ 
+ .lampochka {
+     float: left;
+ }
+ 
+ .third {
+     background-color: rgb(55, 69, 77);
+     overflow: auto;
+     padding: 30px;
+ }
+ 
+ .per {
+     float: right;
+     margin-right: 150px;
+ }

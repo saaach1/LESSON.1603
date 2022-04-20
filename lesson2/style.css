@@ -1,0 +1,49 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    width:800px;
+}
+
+p{
+    color: rgba(211, 224, 22, 0.705);
+    /* Размер шрифта */
+    font-size: 25px; 
+    /* Жирность текста */
+    font-weight: 700;
+    /* Межбуквенное расстояние */
+    letter-spacing: 1px;
+    /* Межстрочной расстояне */
+    line-height: 45px;
+    font-family: Tahoma;
+    max-width: 400px;
+    min-width: 200px;
+    border-bottom: 3px solid black;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a{
+    /* Текст без подчёркивания */
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+span{
+    /* Текст с подчёркиванием */
+    text-decoration:underline;
+}
+
+
+h1{
+    /* Всё с большой буквы */
+    text-transform: uppercase;
+    /* Выравнивание  текста в блоке*/
+    text-align: center;
+    border: solid red;
+    padding: 40px;
+    border-radius: 10px;
+
+}
+
+
